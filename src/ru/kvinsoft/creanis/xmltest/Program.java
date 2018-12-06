@@ -39,6 +39,7 @@ public class Program {
         builderFactory.setNamespaceAware(true);
         DocumentBuilder builder;
         Document doc = null;
+
         try {
             builder = builderFactory.newDocumentBuilder();
             doc = builder.parse(filename);

@@ -7,7 +7,7 @@ class Counter {
         this.c = 0;
     }
 
-    public void increase(){
+    void increase(){
         this.c++;
     }
 
