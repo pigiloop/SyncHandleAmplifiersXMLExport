@@ -146,6 +146,10 @@ public class Program {
 //        System.out.printf("Всего к экспорту годятся %3d из %3d файлов.\n", cAllCopy.get(), cAllItog.get());
     }
 
+    public void TestFunction(){
+        System.out.println("My fist version git.");
+    }
+
     public static void copyXML(Path path) {
         System.out.println(path.getFileName());
     }
