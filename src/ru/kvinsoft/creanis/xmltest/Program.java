@@ -149,6 +149,7 @@ public class Program {
 
     public void TestFunction(){
         System.out.println("My fist version git.");
+        System.out.println("New instruction");
     }
 
     public static void copyXML(Path path) {
